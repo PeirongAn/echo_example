@@ -1,0 +1,5 @@
+
+compile the thrift files
+$ thrift --version #0.11.0
+$ cd thrift_file
+$ thrift -out .. -gen go example.thrift # generate the example dir
